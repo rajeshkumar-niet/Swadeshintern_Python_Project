@@ -38,3 +38,4 @@ receive_thread = threading.Thread(target=receive_messages)
 
 send_thread.start()
 receive_thread.start()
+print("Hello World")
